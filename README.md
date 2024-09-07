@@ -14,12 +14,13 @@ First, clone the repository and install the necessary dependencies:
 git clone https://github.com/Minahil-Shafique/quick-meal-planner.git
 cd quick-meal-planner
 npm install
+```
 2. Set Up Convex
 Ensure you have Convex CLI installed and initialized:
 
 Install Convex CLI globally:
 
-bash
+```bash
 Copy code
 npm install -g convex
 Initialize Convex in your project:
@@ -28,10 +29,11 @@ bash
 Copy code
 npx convex init
 Push your Convex schema and functions:
-
-bash
+```
+```bash
 Copy code
 npx convex push
+```
 3. Configure Environment Variables
 Create a .env.local file in the root directory and add the following environment variables:
 
@@ -41,7 +43,7 @@ NEXT_PUBLIC_CONVEX_URL=https://<your-convex-deployment-url>
 4. Run the Development Server
 Start the development server:
 
-bash
+```bash
 Copy code
 npm run dev
 # or
@@ -50,6 +52,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
 Open http://localhost:3000 with your browser to see the result.
 
 You can start editing the page by modifying src/app/page.tsx. The page auto-updates as you edit the file.
