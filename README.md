@@ -12,7 +12,11 @@ First, clone the repository and install the necessary dependencies:
 
 ```bash
 git clone https://github.com/Minahil-Shafique/quick-meal-planner.git
+```
+```bash
 cd quick-meal-planner
+```
+```bash
 npm install
 ```
 ### 2. **Set Up Convex**
@@ -26,11 +30,11 @@ npm install -g convex
 Initialize Convex in your project:
 
 ```bash
-npx convex init
+npx convex dev
 ```
 Push your Convex schema and functions:
 ```bash
-npx convex push
+npx convex deploy
 ```
 ### 3. **Configure Environment Variables**
 Create a .env.local file in the root directory and add the following environment variables:
